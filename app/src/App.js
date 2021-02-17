@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+import React from 'react'
+import Display from "./components/display"
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <h1> You Prolly Oughta Replace This Placeholder Huh?  </h1>
+     <h2> Remembewr, you can actually place this kinda stuff inside the componenet, or just style it here i guess  </h2>
+     <Display />
     </div>
   );
 }
